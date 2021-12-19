@@ -1,4 +1,4 @@
-name: CI/CD
+name: Deploy/Release
 
 on:
   push:
@@ -63,7 +63,7 @@ jobs:
     - name: Share artifact inside workflow
       uses: actions/upload-artifact@v1
       with:
-        name: react-github-actions-build
+        name: mv_forchtenstein
         path: build
 
   release:
@@ -74,16 +74,16 @@ jobs:
       - name: Get artifact
         uses: actions/download-artifact@v1
         with:
-          name: react-github-actions-build
+          name: mv_forchtenstein
       # Zip the build using external action
       - name: Zip build
         uses: thedoctor0/zip-release@master
         with:
-          filename: react-github-actions-release-build.zip
-          path: react-github-actions-build
+          filename: mv_forchtenstein.zip
+          path: mv_forchtenstein
       # Upload as an artifact of the current workflow
       - name: Upload build zip artifact
         uses: actions/upload-artifact@v1
         with:
-          name: react-github-actions-release-build.zip
-          path: react-github-actions-release-build.zip
+          name: mv_forchtenstein.zip
+          path: mv_forchtenstein.zip
