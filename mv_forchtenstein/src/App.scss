@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.construction-wrap{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  color: white;
+  background: linear-gradient(#E94057, #F27121);
+
+  a, a:hover, a:visited{
+    color: white;
+  }
+}

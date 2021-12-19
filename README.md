@@ -1,2 +1,2 @@
-# mv_forchtenstein
+# Musikverein-Forchtenstein.at
 Website für den Musikverein Forchtenstein in React
