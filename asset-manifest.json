@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mv_forchtenstein/static/css/main.8d783165.css",
+    "main.js": "/mv_forchtenstein/static/js/main.b99b2d24.js",
+    "static/js/787.bf0d4fc8.chunk.js": "/mv_forchtenstein/static/js/787.bf0d4fc8.chunk.js",
+    "index.html": "/mv_forchtenstein/index.html",
+    "main.8d783165.css.map": "/mv_forchtenstein/static/css/main.8d783165.css.map",
+    "main.b99b2d24.js.map": "/mv_forchtenstein/static/js/main.b99b2d24.js.map",
+    "787.bf0d4fc8.chunk.js.map": "/mv_forchtenstein/static/js/787.bf0d4fc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d783165.css",
+    "static/js/main.b99b2d24.js"
+  ]
+}
