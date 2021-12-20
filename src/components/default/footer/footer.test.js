@@ -7,10 +7,10 @@ Authors: Alexander Grill, Alexander Brenner
 
 */
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Footer from './footer';
 
 test('renders learn react link', () => {
-  render(<App />);
+  render(<Footer />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });

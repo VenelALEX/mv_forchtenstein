@@ -7,10 +7,10 @@ Authors: Alexander Grill, Alexander Brenner
 
 */
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Historypage from './historypage';
 
 test('renders learn react link', () => {
-  render(<App />);
+  render(<Historypage />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
