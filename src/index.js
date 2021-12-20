@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AOS from 'aos';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,4 +13,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+AOS.init();
 reportWebVitals();
