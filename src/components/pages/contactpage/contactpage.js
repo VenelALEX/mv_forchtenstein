@@ -18,7 +18,7 @@ class Contactpage extends React.Component{
   render(){
     return (
       <div>
-        
+          <h1>Hier entsteht die Kontaktpage</h1>
       </div>
     );
   }

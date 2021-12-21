@@ -18,7 +18,7 @@ class Musikschulvereinpage extends React.Component{
   render(){
     return (
       <div>
-        
+          <h1>Hier entsteht die Musikschulvereinpage</h1>
       </div>
     );
   }

@@ -18,7 +18,7 @@ class Guestbookpage extends React.Component{
   render(){
     return (
       <div>
-        
+          <h1>Hier entsteht die Gästebuchpage</h1>
       </div>
     );
   }

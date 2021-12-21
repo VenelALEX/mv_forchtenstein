@@ -18,7 +18,7 @@ class Eventpage extends React.Component{
   render(){
     return (
       <div>
-        
+        <h1>Hier entsteht die Eventpage</h1>
       </div>
     );
   }

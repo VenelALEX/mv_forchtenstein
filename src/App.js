@@ -13,11 +13,13 @@ import {
   Route
 } from "react-router-dom";
 
-import Gedenkenpage from "./components/pages/aboutpage/gedenkenpage";
-import Historypage from "./components/pages/aboutpage/historypage";
-import Kapellmeisterpage from "./components/pages/aboutpage/kapellmeisterpage";
-import Musikerpage from "./components/pages/aboutpage/musikerpage";
-import Vorstandpage from "./components/pages/aboutpage/vorstandpage";
+import MyNavbar from "./components/default/mynavbar/mynavbar";
+
+import Gedenkenpage from "./components/pages/aboutpage/gedenkenpage/gedenkenpage";
+import Historypage from "./components/pages/aboutpage/historypage/historypage";
+import Kapellmeisterpage from "./components/pages/aboutpage/kapellmeisterpage/kapellmeisterpage";
+import Musikerpage from "./components/pages/aboutpage/musikerpage/musikerpage";
+import Vorstandpage from "./components/pages/aboutpage/vorstandpage/vorstandpage";
 
 import Contactpage from "./components/pages/contactpage/contactpage";
 import Eventpage from "./components/pages/eventpage/eventpage";
@@ -34,6 +36,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
+        <MyNavbar />
         <div className="construction-wrap">
           <Router>
             <Switch>
@@ -49,7 +52,7 @@ class App extends React.Component{
               <Route path="/musiker">
                 <Musikerpage />
               </Route>
-              <Route path="/vostand">
+              <Route path="/vorstand">
                 <Vorstandpage />
               </Route>
               <Route path="/kontakt">

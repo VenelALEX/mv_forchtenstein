@@ -18,7 +18,7 @@ class Musikerpage extends React.Component{
   render(){
     return (
       <div>
-        
+        <h1>Hier entsteht die Musikerpage</h1>
       </div>
     );
   }

@@ -18,7 +18,7 @@ class Gedenkenpage extends React.Component{
   render(){
     return (
       <div>
-        
+        <h1>Hier entsteht die Gedenkenpage</h1>
       </div>
     );
   }

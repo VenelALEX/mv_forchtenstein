@@ -18,7 +18,7 @@ class Gallerypage extends React.Component{
   render(){
     return (
       <div>
-        
+          <h1>Hier entsteht die Galeriepage</h1>
       </div>
     );
   }

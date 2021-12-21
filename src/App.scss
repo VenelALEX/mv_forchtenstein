@@ -10,9 +10,11 @@ Authors: Alexander Grill, Alexander Brenner
 @import "~bootstrap/scss/bootstrap";
 
 .App {
-  text-align: center;
+  width: 100%;
+  height: auto;
 }
 
+/*
 .construction-wrap{
   width: 100%;
   height: 100vh;
@@ -29,4 +31,4 @@ Authors: Alexander Grill, Alexander Brenner
   a, a:hover, a:visited{
     color: white;
   }
-}
+}*/

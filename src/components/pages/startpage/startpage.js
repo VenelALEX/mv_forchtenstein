@@ -7,9 +7,9 @@ Authors: Alexander Grill, Alexander Brenner
 
 */
 import React from 'react';
-import './navbar.scss';
+import './startpage.scss';
 
-class Navbar extends React.Component{
+class Startpage extends React.Component{
 
   constructor(props){
     super(props);
@@ -18,10 +18,10 @@ class Navbar extends React.Component{
   render(){
     return (
       <div>
-        
+          <h1>Hier entsteht die Startpage</h1>
       </div>
     );
   }
 }
 
-export default Navbar;
+export default Startpage;

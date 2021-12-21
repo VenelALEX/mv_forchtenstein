@@ -7,10 +7,10 @@ Authors: Alexander Grill, Alexander Brenner
 
 */
 import { render, screen } from '@testing-library/react';
-import Kapellmeisterpage from './kapellmeisterpage';
+import MyNavbar from './mynavbar';
 
 test('renders learn react link', () => {
-  render(<Kapellmeisterpage />);
+  render(<MyNavbar />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
